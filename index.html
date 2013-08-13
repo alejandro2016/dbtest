@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+            $(document).ready(function(){
+    $.getJSON('http://www.wifienter.net/app/test2.php?callback=?','room=509&apellido=GOLDSTEIN',function(res){
+        document.write (res.nombre);
+		$('#employeeList').append('<li><a href="employeedetails.html?id=' + employee.id + '">' +
+					'<h4>' + res.room + '</h4>' +
+					'<h4>' + res.id + ' ' + res.salida + '</h4>' +
+					'<p>' + res.salida + '</p>');
+		
+		$('#employeeList').listview('refresh');
+		
+    });
+
+});
+
+        </script>
+</head>
+    
+<body>
+    
+</body>
+
+</html>
