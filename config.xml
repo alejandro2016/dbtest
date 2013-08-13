@@ -1,23 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.coenraets.employeedirectory"
-        version   = "1.1.0">
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>Directorio de Empleados WFEN</name>
-
-    <description>
-        Un directorio de empleados con informacion basica y rapida para contacto por dependencias.
-    </description>
-
-    <author href="http://wifienter.com" email="alejandro.c@wifienter.net">
-        Alejandro Osorio
-    </author>
-
-    <icon src="img/logo_wifi.png" width="30px" height="40px"/>
-</widget>
 
 <access uri="*" subdomains="true" />
 
